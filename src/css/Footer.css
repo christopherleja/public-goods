@@ -1,0 +1,80 @@
+.footer-container{
+  background-color: black;
+  color: #fff;
+  display: flexbox;
+  flex-wrap: wrap;
+  padding: 1rem 5rem;
+}
+
+.footer-top-level{
+  height: 10rem;
+  display: flex;
+}
+
+.detail-btn{
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  background-color: black;
+  color: #fff;
+}
+
+.connect-box{
+  padding: 1rem;
+  width: 50%;
+}
+
+.connect-headline{
+  font-size: .8rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.connect-form{
+  display: flex;
+  height: 3rem;
+}
+
+.connect-subscribe{
+  padding: 1rem 2rem;
+}
+
+.connect-fine-print{
+  font-size: .5rem;
+  width: 12rem;
+}
+
+.connect-input{
+  background-color: transparent;
+  width: 12rem;
+  border: 1px solid #fff;
+  padding: .5rem;
+}
+
+::placeholder{
+  color: #fff
+}
+
+.icon-links{
+  width: 50%;
+  padding: 1rem;
+  margin-left: 0;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+.icon{
+  padding: .5rem;
+  color: #fff;
+}
+
+.connect-second-level{
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+
+.copyright{
+  font-size: .8rem;
+}

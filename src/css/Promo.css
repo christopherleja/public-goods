@@ -1,0 +1,26 @@
+.promo-container{
+  background-image: url('../images/new-to-public-goods_desktop.jpg');
+  background-size: cover;
+  padding: 2rem 4rem;
+}
+
+.promo-textbox{
+  width: 30%;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.promo-headline{
+  padding: 1rem 0;
+}
+
+.as-seen-in{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.caption{
+  color: gray;
+  font-weight: 500;
+  padding: 1rem 0;
+}
