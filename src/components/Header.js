@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Header.css'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
           <h1 className="header-intro">INTRODUCING</h1>
           <h2 className="header-headline">The first 100% biodegradable bamboo maxi pad.</h2>
           <p className="header-text">The most eco-friendly menstrual care in the world is here.</p>
-          <button className="btn-main">30 day trial</button>
+          <button className="btn-main header-btn">30 day trial</button>
         </div>
       </div>
     </>

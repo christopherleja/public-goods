@@ -47,11 +47,14 @@ const Product = () => {
 
   return (
     <>
+      <div className="headline-container">
+        <h1 className="product-headline">The Collection</h1>
+      </div>
       <div className="product-container">
         {renderProducts()}
       </div>
       <div className="btn-container">
-        <button className="btn-main">Shop Now</button>
+        <button className="btn-main product-btn">Shop Now</button>
       </div>
     </>
   )

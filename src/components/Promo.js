@@ -17,7 +17,7 @@ const Promo = () => {
           alt="Newsweek, domino, Forbes, apartment therapy, AD, Fast Company" 
           className="as-seen-in"
         />
-        <button className="btn-main">Shop Now</button>
+        <button className="btn-main promo-btn">Shop Now</button>
       </div>      
     </div>
   )

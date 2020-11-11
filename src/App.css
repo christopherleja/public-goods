@@ -9,51 +9,6 @@
   padding: 2rem;
 }
 
-.navbar-container{
-  padding: 1rem;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  height: 3rem;
-  align-items: center;
-}
-
-.logo-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.logo{
-  font-size: 1.2rem;
-  margin: 0;
-  padding: 0;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.header{
-  background-image: url('../src/images/menstraul-hero_desktop.jpg');
-  background-size: cover;
-  width: 100%;
-}
-
-.header-content{
-  padding: 5rem;
-  z-index: 10;
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-}
-
-.header-intro{
-  font-size: 1.2rem;
-}
-
-.header-headline{
-  font-weight: 700;
-}
-
 .btn-main{
   color: #fff;
   background-color: #ff6752;
@@ -65,96 +20,8 @@
   padding: .5rem 2rem;
 }
 
-.bg-container{
-  z-index: -1;
-}
-
-.header-bg{
-  width: 100%;
-  justify-content: center;
-  height: 32rem;
-  z-index: -1;
-}
-
-.navbar-btn{
-  border: none;
-  box-shadow: none;
-  background-color: white;
-  color: #555;
-  margin: 0 .8rem;
-}
-
-.outlined{
-  border: solid 1px #ff6752;
-}
-
-.navbar-left{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-right{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.about-first{
-  background-image: url('../src/images/bamboo_desktop.jpg');
-  background-size: cover;
-  display: flex;
-  color: #fff;
-  padding: 3rem;
-}
-
-.about-textbox{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
-  width: 30%;
-}
-
-.about-text{
-  font-weight: 600;
-}
-
-.about-container{
-  margin: 1rem;
-}
-
-.about-wrapper{
-  display: flex;
-  width: 100%;
-}
-
-.about-second{
-  background-image: url('../src/images/pad_detail_desktop.jpg');
-  background-size: cover;
-  display: flex;
-  color: black;
-  margin: 2rem 1rem;
-  margin-left: 0;
-  width: 48%;
-  padding: 2rem 3rem;
-  height: 1fr;
-}
-
-.about-second-textbox{
-  width: 40%;
-  margin-left: 1rem;
-  margin-top: 3rem;
-}
-
-.about-third{
-  background-image: url('../src/images/pad_in_hand_desktop.jpg');
-  background-size: cover;
-  display: flex;
-  color: black;
-  width: 48%;
-  margin: 2rem 1rem;
-  padding: 2rem 3rem;
-  margin-right: 0;
-  height: 1fr;
+@media only screen and (max-width: 37.5em){
+  .content-container{
+    padding: 1rem;
+  }
 }

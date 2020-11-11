@@ -1,0 +1,125 @@
+.about-first{
+  background-image: url('../../src/images/bamboo_desktop.jpg');
+  background-size: cover;
+  display: flex;
+  color: #fff;
+  padding: 3rem;
+}
+
+.about-textbox{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+
+.about-text{
+  font-weight: 600;
+}
+
+.about-container{
+  margin: 1rem;
+}
+
+.about-wrapper{
+  display: flex;
+  width: 100%;
+}
+
+.about-second{
+  background-image: url('../../src/images/pad_detail_desktop.jpg');
+  background-size: cover;
+  display: flex;
+  color: black;
+  margin: 2rem 1rem;
+  margin-left: 0;
+  width: 48%;
+  padding: 2rem 3rem;
+  height: 1fr;
+}
+
+.about-second-textbox{
+  width: 40%;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.about-third{
+  background-image: url('../../src/images/pad_in_hand_desktop.jpg');
+  background-size: cover;
+  display: flex;
+  color: black;
+  width: 48%;
+  margin: 2rem 1rem;
+  padding: 2rem 3rem;
+  margin-right: 0;
+  height: 1fr;
+}
+
+@media only screen and (max-width: 37.5em){
+  .about-container{
+    margin: 0;
+  }
+
+  .about-first{
+    background-image: url('../../src/images/bamboo_mobile.jpg');
+    background-size: cover;
+    display: flex;
+    color: #fff;
+  }
+
+  .about-textbox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .about-headline{
+    font-size: 2rem;
+  }
+
+  .about-text{
+    font-size: 1.2rem;
+  }
+
+  .about-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .about-second{
+    background-image: url('../../src/images/pad_detail_mobile.jpg');
+    background-size: cover;
+    color: black;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 2rem 0;
+    height: 60vh;
+  }
+  
+  .about-second-textbox{
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .about-third{
+    background-image: url('../../src/images/pad_in_hand_mobile.jpg');
+    background-size: cover;
+    display: flex;
+    color: black;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 2rem 0;
+    margin-right: 0;
+    height: 60vh;
+  }
+
+  .about-text{
+    font-weight: 500;
+  }
+}

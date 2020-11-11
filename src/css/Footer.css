@@ -1,8 +1,6 @@
 .footer-container{
   background-color: black;
   color: #fff;
-  display: flexbox;
-  flex-wrap: wrap;
   padding: 1rem 5rem;
 }
 
@@ -77,4 +75,59 @@
 
 .copyright{
   font-size: .8rem;
+}
+
+@media only screen and (max-width: 37.5em){
+  .footer-container{
+    padding: 1rem;
+  }
+
+  .footer-top-level{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-links{
+    width: 50%;
+    padding: 1rem;
+    margin-left: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .connect-form{
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .connect-box{
+    width: 100%;
+    text-align: center;
+  }
+
+  .connect-input{
+    width: 60vw;
+  }
+
+  .connect-fine-print{
+    width: 100%;
+    font-size: .6rem;
+  }
+
+  .fine-print-container{
+    display: flex;
+    width: 40%;
+    margin: auto;
+  }
+
+  .connect-second-level{
+    flex-direction: column;
+    height: 5rem;
+    align-items: center;
+
+  }
 }

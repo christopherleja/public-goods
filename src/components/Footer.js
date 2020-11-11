@@ -16,9 +16,11 @@ const Footer = () => {
             <input className="connect-input" type="text" placeholder="Enter your email" />
             <input type="submit" className="connect-subscribe" value="Subscribe" />
           </form>
-          <p className="connect-fine-print">
-            By clicking Sign Up you agree to recieve marketing emails from PUBLIC GOODS
-          </p>
+          <div className="fine-print-container">
+            <p className="connect-fine-print">
+              By clicking Sign Up you agree to recieve marketing emails from PUBLIC GOODS
+            </p>
+          </div>
         </div>
 
 

@@ -24,3 +24,32 @@
   font-weight: 500;
   padding: 1rem 0;
 }
+
+@media only screen and (max-width: 37.5em){
+  .promo-container{
+    background-image: url('../images/new-to-public-goods_mobile.jpg');
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+  }
+
+  .promo-textbox{
+    text-align: center;
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .caption{
+    display: none;
+  }
+
+  .as-seen-in{
+    display: none;
+  }
+
+  .promo-btn{
+    display: none;
+  }
+}
